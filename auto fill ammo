@@ -1,0 +1,11 @@
+local oldpos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame 
+wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-196, 3, -58)
+wait(0.3)
+fireproximityprompt(workspace.AmmoBoxes.AllAmmoTypes.ExplosiveAmmo.PromptAttachment.ProximityPrompt)
+fireproximityprompt(workspace.AmmoBoxes.AllAmmoTypes.HeavyAmmo.PromptAttachment.ProximityPrompt)
+fireproximityprompt(workspace.AmmoBoxes.AllAmmoTypes.PistolAmmo.PromptAttachment.ProximityPrompt)
+fireproximityprompt(workspace.AmmoBoxes.AllAmmoTypes.ShotgunAmmo.PromptAttachment.ProximityPrompt)
+fireproximityprompt(workspace.AmmoBoxes.AllAmmoTypes.RifleAmmo.PromptAttachment.ProximityPrompt)
+wait(0.3)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = oldpos
